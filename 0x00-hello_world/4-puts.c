@@ -3,11 +3,8 @@
 /**
  * main - Entry point
  *
- * Return:
- * Descripion: prints a message to the output using pput
- *
- */
-
+ * Return: Always 0 (Success)
+ * Description: prints a message to the screen using puts*/
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
