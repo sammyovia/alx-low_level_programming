@@ -1,10 +1,11 @@
 #include<stdio.h>
 /**
 * main - Entry point
- *
- * Return: Always 0 (Success)
- * Description:Displays types and sizes.
- */
+*
+* Return: Always 0 (Success)
+* Description:Displays types and sizes.
+*/
+
 int main(void)
 {
 	int intType;
