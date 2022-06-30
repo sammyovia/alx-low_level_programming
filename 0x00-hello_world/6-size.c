@@ -1,5 +1,9 @@
 #include<stdio.h>
-/**                                                    * main - Entry point                                  *                                                     * Return: Always 0 (Success)                          * Description:Displays types and sizes.
+/**
+* main - Entry point
+ *
+ * Return: Always 0 (Success)
+ * Description:Displays types and sizes.
  */
 int main(void)
 {
