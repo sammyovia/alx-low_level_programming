@@ -2,7 +2,9 @@
 
 /**
  * main - Entry point
- *                                                     * Return: Always 0 (Success)                          * Description:prints a message to the screen using printf
+ *                                                     * Return: Always 0 (Success)
+ *
+ * Description:prints a message to the screen using printf
  */
 int main(void)
 {
