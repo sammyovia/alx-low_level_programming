@@ -4,15 +4,15 @@
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
-/*
- * Description :Check if a random number is negative, positive or zero
-*/
+/* Description : A description for function main */
 int main(void)
 {
 	int n;
 	
 	srand(time(0));
+	
 	n = rand() - RAND_MAX / 2;
+
 	/*Your code goes there*/
 	if (n > 0)
 	{
