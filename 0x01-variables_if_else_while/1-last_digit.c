@@ -13,26 +13,27 @@
 int main(void)
 {
 	int n;
+	int digit;
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 
 	/*Your code goes there*/
-	if (n > 0)
-	{	
-	    
-		printf("%d is positive\n", n);
+        digit = n % 10;
+	if (digit > 5)
+	{	 
+		printf("Last digit of %d is : %d,and is greater than 5\n", n, digit);
 	
 	}
-	else if (n < 0)
+	else if (digit == 0)
 	{ 
 	       
-		printf("%d is negative\n", n);
+		printf("Last digit of %d is : %d, and less than 6 not 0\n", n, digit);
 	
 	}
-	else
+	else if (digit <= 6 || ! 0)
 	{
 		
-		printf("%d is zero\n", n);
+		printf("Last digit of %d is : %d\n, and not 0\n", n, digit);
 	
 	}	
 	return (0);
