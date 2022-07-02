@@ -4,16 +4,15 @@
  * main - Entry point
  *
  * Return: Always 0 (Success)
- * Description:prints the alphabets in lower case and uppercase letters
+ * Description:prints the alphabets in lowercase and uppercase letters
  */
-
 int main(void)
 {
 	int ch;
-	for(ch = 'a'; ch <= 'z'; ch++)
-		putchar(ch);	
 
-        for(ch = 'A'; ch <= 'Z'; ch++)                                putchar(ch);	
-	
+	for (ch = 'a'; ch <= 'z'; ch++)
+		putchar(ch);
+	for (ch = 'A'; ch <= 'Z'; ch++)
+		putchar(ch);
 	return (0);
 }
