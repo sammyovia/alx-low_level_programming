@@ -12,13 +12,13 @@ int main(void)
 	char achar;
 	int aint;
 	long along;
-	long long alonglong;
+	long long longl;
 	float afloat;
 
 	printf("Size of a char: %lu byte(s)\n", (unsigned long)sizeof(achar));
 	printf("Size of an int: %lu byte(s)\n", (unsigned long)sizeof(aint));
 	printf("Size of a long int: %lu byte(s)\n", (unsigned long)sizeof(along));
-	printf("Size of a long long int: %lu byte(s)\n", (unsigned long)sizeof(alonglong));
+	printf("Size of a long long int: %lu byte(s)\n", (unsigned long)sizeof(longl));
 	printf("Size of a float: %lu byte(s)\n", (unsigned long)sizeof(afloat));
 
 	return (0);
