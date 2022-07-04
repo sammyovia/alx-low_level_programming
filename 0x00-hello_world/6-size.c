@@ -3,7 +3,8 @@
  * main - Entry point
  *
  * Return: Always (0) Success
- * Description: Displays types and sizes.
+ *
+ * Description: Displays types and sizes
  */
 
 int main(void)
@@ -19,6 +20,7 @@ int main(void)
 	printf("Size of a long int : %lu byte(s)\n", (unsigned long)sizeof(along));
 	printf("Size of a long long int: %lu byte(s)\n", (unsigned long)sizeof(alonglong));
 	printf("Size of a float : %lu byte(s)\n", (unsigned long)sizeof(afloat));
+
 	return (0);
 }
 
