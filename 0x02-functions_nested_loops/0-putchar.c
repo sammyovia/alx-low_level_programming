@@ -8,7 +8,8 @@
  */
 int main(void)
 {
-	char *ce = "cahar";	
+	char *ce = "c";
+
 	while (*ce)
 	{
 		_putchar(*ce);
