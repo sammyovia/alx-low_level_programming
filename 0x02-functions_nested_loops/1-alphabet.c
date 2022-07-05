@@ -6,13 +6,13 @@
  * Return: Always 0 (Success)
  * Description: prints _putchar followed by a new line 
  */
-int main(void)
+void print_alphabet(void)
 {
-	char *ce = "main";
+	int g;
 
-	while (*ce)
+	for (g = 'a'; g <= 'z' g++)
 	{
-		_putchar(*ce);
+		_putchar(g);
 		ce++;
 	}
 	putchar('\n');
