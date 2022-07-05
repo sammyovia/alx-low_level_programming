@@ -1,10 +1,9 @@
-#include "main.h" 
-
+#include "main.h"
 /**
  * main - Entry point
  *
  * Return: Always 0 (Success)
- * Description: prints _putchar followed by a new line 
+ * Description:function to print alphabets in lowercase
  */
 void print_alphabet(void)
 {
