@@ -1,7 +1,8 @@
 #include "main.h"
-/** 
+/**
+ * jack_bauer - prints every minute of 24 hours
  * Return: 24 hour clock
- * Description: prints every minute of the day 24hours round the clock
+ * e = hours, o = minutes
  */
 void jack_bauer(void)
 {
@@ -9,7 +10,8 @@ void jack_bauer(void)
 
 	for (e = 0; e < 24; e++)
 	{
-		for (o = 0; o < 60; o++){
+		for (o = 0; o < 60; o++)
+		{
 			_putchar((e / 10) + '0');
 			_putchar((e % 10) + '0');
 			_putchar(':');

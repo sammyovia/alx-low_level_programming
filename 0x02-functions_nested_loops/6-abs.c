@@ -1,7 +1,8 @@
 #include "main.h"
 /**
+ * _abs - derives the absolute value of an integer
+ * @ol: takes integer input
  * Return: absolute value of ol
- * Description: computes absolute value of an integer
  */
 int _abs(int ol)
 {

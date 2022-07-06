@@ -1,7 +1,8 @@
 #include "main.h"
-/** 
+/**
+ * times_table - prints the 9 times table from 0
  * Return: 9 times table, with spaced digits
- * Description: prints the 9 times table from 0
+ * bre = row, bro = column, f = current digit.
  */
 void times_table(void)
 {
@@ -14,8 +15,9 @@ void times_table(void)
 		_putchar(' ');
 		for (bro = 1; bro <= 9; bro++)
 		{
-			f = (bre* bro);	
-			if ((f / 10) > 0){
+			f = (bre * bro);
+			if ((f / 10) > 0)
+				{
 				_putchar((f / 10) + '0');
 			}
 			else

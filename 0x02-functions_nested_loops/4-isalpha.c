@@ -1,7 +1,9 @@
 #include "main.h"
-/** 
- * Return: 1 if in is lowercase 0 if not
- * Description: checks for lowercase character
+/**
+ * _isalpha - checks for alphabetic characters
+ * Return: 1 if d is a letter(lower or uppercase), 0 if not
+ * @d: input letter
+ *
  */
 int _isalpha(int d)
 {

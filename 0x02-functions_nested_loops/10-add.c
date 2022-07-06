@@ -1,6 +1,9 @@
 #include "main.h"
-/** 
- * Return: 1 if in is lowercase 0 if not
+/**
+ * add - adds two integers and returns result
+ * @one: first input number
+ * @two: second input number
+ * Return: one + two
  * Description: adds two numbers and return result
  */
 int add(int one, int two)
