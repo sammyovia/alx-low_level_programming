@@ -1,10 +1,8 @@
-#include "main.h" 
-
+#include "main.h"
 /**
  * main - Entry point
- *
  * Return: Always 0 (Success)
- * Description: prints _putchar followed by a new line 
+ * Description: prints _putchar to the screen
  */
 int main(void)
 {
