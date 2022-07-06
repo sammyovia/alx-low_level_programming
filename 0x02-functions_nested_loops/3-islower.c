@@ -1,7 +1,9 @@
 #include "main.h"
-/** 
+/**
+ * _islower - prints alphsbet in lowercase.
+ * main - function to check for lowercase
  * Return: 1 if in is lowercase 0 if not
- * Description: checks for lowercase character
+ * @l: single letter input
  */
 int _islower(int l)
 {
