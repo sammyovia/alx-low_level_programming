@@ -8,7 +8,7 @@
  * Return : 1 on Success.
  * Return : -1 on error.
  */
-int _putchar(char d)
+int _putchar(char c)
 {
-	return (write(1, &d, 1));
+	return (write(1, &c, 1));
 }
