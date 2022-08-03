@@ -1,8 +1,8 @@
 #include "function_pointers.h"
 
 /**
- * array_iterator - this functions iterates an array 
- (* a blank line
+ * array_iterator - this functions iterates an array
+(* a blank line
  * @array: the array to iterate
  * @size: the size of the array.
  * @action: this a function pointer.

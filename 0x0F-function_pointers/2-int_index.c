@@ -5,7 +5,8 @@
  * @array: the array to find the index
  * @size: the size of the array
  * @cmp: function pointer.
- * Description: this function find the index of a int) (* section header: the header of this function is function_pointers.h)*
+ * Description: this function find the index of a int
+ * section header: the header of this function is function_pointers.h)*
  * Return: this is a void function no return
  */
 int int_index(int *array, int size, int (*cmp)(int))
