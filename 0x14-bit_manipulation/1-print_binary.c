@@ -1,46 +1,44 @@
-include "main.h"
+#include "main.h"
 
 /**
- * _pow - calculates (base ^ power)
- * @base: base of the exponent
- * @power: power of the exponent
+ * rev_bin - prints binary representation of number with & and Shift Right
+ * operators, but uses recursion to reverse the result
  *
- * Return: value of (base ^ power)
+ * @n: decimal number
+ * @check: checks for special case number 0
+ *
+ * Return: No return
  */
-unsigned long int _pow(unsigned int base, unsigned int power)
+void rev_bin(unsigned long int n, int check)
 {
-	unsigned long int num;
-	unsigned int i;
+	if (check == 1)
+	{
+		_putchar('0');
+		return;
+	}
 
-	num = 1;
-	for (i = 1; i <= power; i++)
-		num *= base;
-	return (num);
+	if (n == 0)
+		return;
+
+	rev_bin(n >> 1, check);
+
+	if ((n & 1) == 0)
+		_putchar('0');
+
+	if ((n & 1) == 1)
+		_putchar('1');
 }
-
 /**
- * print_binary - prints a number in binary notation
- * @n: number to print
+ * print_binary - prints the binary representation of a number
+ * @n: base 10 number
  *
- * Return: void
+ * Return: No return
+ *
  */
 void print_binary(unsigned long int n)
 {
-	unsigned long int divisor, check;
-	char flag;
-
-	flag = 0;
-	divisor = _pow(2, sizeof(unsigned long int) * 8 - 1);
-	while (divisor != 0)
-	{
-		check = n & divisor;
-		if (check == divisor)
-		{
-			flag = 1;
-			_putchar('1');
-		}
-		else if (flag == 1 || divisor == 1)
-		{
-			_putchar('0');
-		}
-		divisor >>= 1;
+	if (n == 0)
+		rev_bin(n, 1);
+	else
+		rev_bin(n, 0);
+}
