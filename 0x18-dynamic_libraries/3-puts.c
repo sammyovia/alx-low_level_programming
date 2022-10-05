@@ -5,17 +5,17 @@
 *
 * Return: nothing.
 */
-void _puts(char *str)
+void _puts(char *s)
 {
 	int i;
 
 	i = 0;
 
-	while (*str != '\0')
+	while (*s != '\0')
 	{
-		_putchar(*str);
+		_putchar(*s);
 		i++;
-		str++;
+		s++;
 	}
 	_putchar('\n');
 }
